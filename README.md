@@ -4,6 +4,9 @@ GateWatcher is a .NET **C#** console + **WinForms** application that monitors Ga
 
 It shows live **Top-10 gainers/losers**, plots their 24h% over time, and writes daily **CSV** logs for analysis.
 
+<img width="1430" height="956" alt="image" src="https://github.com/user-attachments/assets/8eaa405b-27d4-4cd2-b9a6-693b813cc611" />
+
+
 > No API keys required. Only public Gate.io endpoints are used.
 
 ---
