@@ -223,3 +223,9 @@ Ensure the alert source is hooked once by `UiController`. The current code guard
 
 - Charts keep snapping
 Manual pan/zoom disables auto-focus and unchecks Auto focus graphs. Re-check or press Reset view to resume.
+
+## Donate
+
+If this tool helps you, consider supporting development 💚
+
+ - Buy me a coffee: https://www.buymeacoffee.com/prowebdevms
