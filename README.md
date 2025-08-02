@@ -44,33 +44,6 @@ It shows live **Top-10 gainers/losers**, plots their 24h% over time, and writes 
 
 ---
 
-## Folder Structure
-
-GateWatcher/
-├─ Models/
-│ ├─ AlertDirectionType.cs
-│ ├─ AlertItem.cs
-│ ├─ AppConfig.cs
-│ ├─ CurrencyPairInfo.cs
-│ ├─ IAlertSource.cs
-│ ├─ INotifier.cs
-│ ├─ SpotTicker.cs
-│ ├─ StatRow.cs
-│ └─ StatsSnapshot.cs
-├─ Services/
-│ ├─ CommandLoop.cs
-│ ├─ CompositeNotifier.cs
-│ ├─ ConfigManager.cs
-│ ├─ ConsoleNotifier.cs
-│ ├─ CsvLogger.cs
-│ ├─ GateIoClient.cs
-│ ├─ MarketMonitor.cs
-│ └─ TelegramNotifier.cs
-├─ appsettings.json
-├─ MainForm.cs
-├─ Program.cs
-└─ UiController.cs
-
 **Key components**
 
 - **Program.cs** – app entry; starts monitor + command loop; bootstraps UI.
