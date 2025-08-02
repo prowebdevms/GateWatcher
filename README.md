@@ -11,7 +11,6 @@ It shows live **Top-10 gainers/losers**, plots their 24h% over time, and writes 
 ## Table of Contents
 
 - [Features](#features)
-- [Folder Structure](#folder-structure)
 - [Build & Run](#build--run)
 - [Configuration](#configuration)
   - [Live edits / Hot-reload](#live-edits--hot-reload)
