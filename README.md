@@ -68,7 +68,7 @@ It shows live **Top-10 gainers/losers**, plots their 24h% over time, and writes 
 
 ## Build & Run
 
-Requirements: **.NET 8 SDK** (or .NET 7; adjust `TargetFramework` accordingly)
+Requirements: **.NET 9 SDK** (or .NET 8, 7; adjust `TargetFramework` accordingly)
 
 ```bash
 # build
