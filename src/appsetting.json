@@ -1,0 +1,31 @@
+﻿{
+  "Polling": {
+    "PollIntervalSeconds": 5,
+    "SamplesWindow": 5,
+    "LookbackSeconds": 20
+  },
+  "Thresholds": {
+    "IncreaseThresholdPercent": 20.0,
+    "DecreaseThresholdPercent": 20.0
+  },
+  "Filters": {
+    "IncludePairs": [],
+    "ExcludePairs": [],
+    "QuoteCurrencies": [ "USDT" ],
+    "MinQuoteVolume24h": 10000.0,
+    "MinBaseVolume24h": 0.0,
+    "NewOnly": false,
+    "NewSinceDays": 30
+  },
+  "Notifications": {
+    "Console": { "Enabled": true },
+    "Telegram": {
+      "Enabled": false,
+      "BotToken": "",
+      "ChatId": ""
+    }
+  },
+  "GateIo": {
+    "BaseUrl": "https://api.gateio.ws/api/v4"
+  }
+}
