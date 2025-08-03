@@ -28,6 +28,7 @@ It shows live **Top-10 gainers/losers**, plots their 24h% over time, and writes 
 - [Roadmap](#roadmap)
 - [License (MIT)](#license-mit)
 - [Donate](#donate)
+- [Credits](#credits)
 
 ---
 
@@ -232,3 +233,24 @@ Manual pan/zoom disables auto-focus and unchecks Auto focus graphs. Re-check or 
 If this tool helps you, consider supporting development 💚
 
  - Buy me a coffee: https://www.buymeacoffee.com/prowebdevms
+
+## Credits
+
+This project is possible thanks to the following:
+
+- ScottPlot – interactive plotting for .NET / WinForms.
+  License: MIT.
+  https://scottplot.net
+
+- .NET Runtime & Windows Forms – application framework and base class libraries.
+  License: MIT.
+  https://dotnet.microsoft.com
+
+- Gate.io Public API – market data (spot tickers and currency pairs).
+  Documentation: https://www.gate.io/docs/developers/apiv4/en/
+
+- Telegram Bot API – optional alert delivery via HTTP sendMessage.
+  Documentation: https://core.telegram.org/bots/api
+
+All product names, logos, and brands are property of their respective owners.
+If you believe an acknowledgement is missing or inaccurate, please open an issue.
